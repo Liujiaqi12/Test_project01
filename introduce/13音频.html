@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+         audio 标签用来向页面引入一个外部的音频我文件
+              音频文件引入时， 默认情况下不允许用户自己控制播放停止
+
+           属性：
+              contrls是允许用户控制播放
+              autoplay 音频文件是否自动播放
+                    - 如果设置了autoplay 则音乐会自动播放但是目前来讲大部分浏览器都不会对音乐自动播放
+              loop 循环播放        
+
+
+
+    <audio src="http://127.0.0.1:5500/introduce/outer/source/audio2.mp3" controls  ></audio>
+    -->
+
+    <audio controls>
+        对不起您的浏览器不支持播放请升级浏览器
+        <source src ="./outer/source/audio2.mp3">
+            <source src = "outer/source/audio.ogg">
+<embed src="./outer/source/audio2.mp3" type="" width="200" height="100">
+    </audio>
+
+
+<!--
+    使用video标签来向网页引入一个视频标签
+    - 使用方式和audio基本上是一样的
+-->
+<video controls>
+
+    <source src="">
+        <source src="。。。。webm">
+            <source src="。。。。mp4">
+
+        
+</video>
+<iframe width="900" height="506" src="https://www.youtube.com/embed/KTLE0SpUv9g?list=PLmOn9nNkQxJFs5KfK5ihVgb8nNccfkgxn" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

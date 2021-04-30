@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    /* 
+       [属性名]选择含有指定属性的元素
+       [属性名=属性值]选择含有指定属性和属性值的元素 
+
+       (p[tiitle="biaoti"])
+
+       [属性名^=属性值] 选择属性值以指定值开头的元素
+
+       （p[titile="pargraf"]
+
+       [属性名$=属性值]选择属性值以指定值结尾的元素 
+
+       （p[title$="1"])
+
+       [属性名*=属性值] 选择属性值中含有某值的元素的元素
+
+       （p[title*="a"]
+    
+     */
+    [title*="a"]
+    {
+        color: orange;
+    }
+    /* h1[title]
+    {
+        color:blue;
+    } */
+</style>
+
+</head>
+<body>
+    <h1 title="_1biaoti">我是标题</h1>
+    <p title="_1pargraf1">少小离家老大回</p>
+    <p title="_1pargraf2">少小离家老大回</p>
+    <p >少小离家老大回</p>
+    <p >少小离家老大回</p>
+    <p >少小离家老大回</p>
+    <p>少小离家老大回</p>
+
+</body>
+</html>

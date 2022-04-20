@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .outer{
+          
+           border: 10px rebeccapurple solid;
+           
+            /* width:auto; */
+            overflow: hidden;
+            /* float: left; */
+            /* overflow :hidden 可以包含浮动元素 
+            打开 BFC 格式*/
+
+        }
+        .inner{
+            width: 100px;
+            height: 100px;
+            background-color: aquamarine;
+            float: left;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="inner"></div>
+    </div>
+</body>
+</html>

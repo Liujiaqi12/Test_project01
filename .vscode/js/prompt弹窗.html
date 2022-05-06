@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+// prompt 函数 是一个 提示窗，并且可以在提示窗中 输入字符串。
+// var score=prompt("请输入成绩");
+// if (score == 100){
+//     alert("恭喜你获得一台法拉利" );
+// }else if(score <80 && score>60){
+//     alert("恭喜你放假一天");
+// }
+
+
+
+
+// 按从小到大的顺序 排列  num1,num2,num3
+
+// 定于 num 变量
+//  pormpt只能输出字符串类型，想要将输出转成字符串 需要在pormpt前 加+ 号
+var num1= +prompt("请输入数字");
+var num2= +prompt("请输入数字");
+var num3= +prompt("请输入数字");
+ 
+
+if (num1<num2 && num1<num3){
+    // num1 的值最小
+    if(num2<num3){
+        alert(num1+","+num2+","+num3);
+
+    }else {
+        alert(num1+","+num3+","+num2);
+    }
+}
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

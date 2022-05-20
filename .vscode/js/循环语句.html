@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <p>点击下面的按钮，只要 i 小于 5 就一直循环代码块。</p>
+    <button onclick="myFunction()">点击这里</button>
+    <p id="demo"></p>
+    <script>
+    function myFunction(){
+        var x="",i=0;
+        while (i<5){
+            x=x + "该数字为 " + i + "<br>";
+            i++;
+        }
+        document.getElementById("demo").innerHTML=x;
+    }
+    </script>
+    <!-- js 输出表达方法
+   JavaScript 可以通过不同的方式来输出数据：
+
+使用 window.alert() 弹出警告框。
+使用 document.write() 方法将内容写到 HTML 文档中。
+使用 innerHTML 写入到 HTML 元素。
+使用 console.log() 写入到浏览器的控制台。 
+    
+    -->
+
+    <h1>我的第一个页面</h1>
+<p>我的第一个段落。</p>
+<!-- 1.使用 window.alert() 弹出警告框 -->
+<script>
+window.alert(5 + 6);
+</script>
+
+</body>
+</html>
